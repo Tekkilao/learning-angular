@@ -1,0 +1,1 @@
+Learning Angular from Awais Mirza youtube tutorial and also testing stuff I was curious about.

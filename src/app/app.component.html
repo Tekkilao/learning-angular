@@ -1,0 +1,9 @@
+<input placeholder="user" [(ngModel)]="userObject.name">
+<input placeholder="user" [(ngModel)]="userObject.age">
+<input placeholder="user" [(ngModel)]="userObject.id">
+
+<button (click)="getDolar()">CLICK ME</button>
+
+
+<app-user [user]= "userObject" (userEvent)="handleEvent($event)"></app-user>
+
